@@ -173,14 +173,14 @@
   d3.selectAll("input")
     .on("change", changed)
 
-  var timeout = d3.timeout(function() {
-    d3.select("input[value=\"grouped\"]")
-      .property("checked", true)
-      .dispatch("change")
-  }, 2000)
+  // var timeout = d3.timeout(function() {
+  //   d3.select("input[value=\"grouped\"]")
+  //     .property("checked", true)
+  //     .dispatch("change")
+  // }, 2000)
 
   function changed() {
-    timeout.stop()
+    //timeout.stop()
      if (this.value === "grouped") transitionGrouped()
      else transitionStacked()
    }
