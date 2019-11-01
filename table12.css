@@ -1,0 +1,51 @@
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+form {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+label {
+  display: block;
+  display: inline;
+}
+
+.vertical-text {
+                 -webkit-writing-mode: vertical-rl;
+                 writing-mode: vertical-rl;
+               }
+
+ #table12{
+     width:800px;
+     height: 400px;
+ }
+ path {  stroke: #fff; }
+ path:hover {  opacity:0.9; }
+ rect:hover {  opacity:0.9; }
+
+ .pie
+ {
+    position:relative;
+    left:50px;
+    top:-100px;
+}
+
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+.legend{
+    position:relative;
+    left:800px;
+    top:-300px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
